@@ -50,7 +50,6 @@ def add_inline_runs(paragraph, text: str) -> None:
         else:
             run = paragraph.add_run(match.group(3))
             run.font.name = "Consolas"
-            run.font.size = Pt(10)
         pos = match.end()
     if pos < len(text):
         paragraph.add_run(text[pos:])
