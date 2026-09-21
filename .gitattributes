@@ -1,0 +1,18 @@
+# Checkout LF even when core.autocrlf=true, so editors do not warn
+# "This file uses LF, but Git will convert them to CRLF".
+* text=auto eol=lf
+
+# Windows cmd.exe requires CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binaries
+*.zip binary
+*.exe binary
+*.dll binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
