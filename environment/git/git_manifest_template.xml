@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote review="https://github.com/buildroot/" />
+  <project
+    name="buildroot"
+    path="buildroot"
+    revision="2025.02.x"
+  />
+</manifest>
+
+<!--?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote review="https://github.com/" />
+  <project
+    path="aux/allwinner/buildroot"
+    name="buildroot/buildroot.git" />
+</manifest-->
